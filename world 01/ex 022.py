@@ -1,0 +1,6 @@
+n = str(input('Digite seu nome completo: '))
+print(n.upper())
+print(n.lower())
+print('numero de letras: '.format(len(n) - n.count(' ')))
+ns = n.split()
+print(ns[0])
