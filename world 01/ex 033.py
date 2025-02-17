@@ -1,0 +1,5 @@
+n1 = input('digite um valor: ')
+n2 = input('digite outro: ')
+n3 = input('digite outro: ')
+print(n1 if n1 > n2 and n1 > n3 else n2 if n2 > n1 and n2 > n3 else n3, 'é o maior numero')
+print(n1 if n1 < n2 and n1 < n3 else n2 if n2 < n1 and n2 < n3 else n3, 'é o menor numero')

@@ -1,0 +1,10 @@
+l1 = float(input(''digite o primeiro lado: '))
+l2 = float(input('digite o segundo lado: '))
+l3 = float(input('digite o terceiro lado: '))
+tri = bool((l1 < l2 + l3) and (l2 < l1 + l3) and ( l3 < l1 + l2))
+eq = bool((l1 == l2) and (l2 == l3))
+es = bool((l1 != l2) and (l2 != l3) and (l1 != l3))
+print("pode formar um triangulo? ", 'sim' if tri == True else 'não')
+if tri == True:
+    print('o triangulo é equilatero? ', 'sim' if eq == True else 'não')
+    print('o triangulo é escaleno? ', 'sim' if es == True else 'não')
