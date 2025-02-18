@@ -1,4 +1,4 @@
-l1 = float(input(''digite o primeiro lado: '))
+l1 = float(input('digite o primeiro lado: '))
 l2 = float(input('digite o segundo lado: '))
 l3 = float(input('digite o terceiro lado: '))
 tri = bool((l1 < l2 + l3) and (l2 < l1 + l3) and ( l3 < l1 + l2))
